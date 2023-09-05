@@ -8,3 +8,5 @@ source ./packageInstalls.sh
 
 chmod a+x ./packageJsonEdit.sh
 source ./packageJsonEdit.sh
+
+yarn

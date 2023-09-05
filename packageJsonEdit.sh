@@ -10,6 +10,7 @@ while IFS= read -r line
 do
 if [[ $line == *"husky install"* ]]; then
 echo 'Finished adding postinstall script'
+yarn
 exit
 fi
 done < "$input"

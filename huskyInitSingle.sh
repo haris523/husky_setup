@@ -90,6 +90,7 @@ while IFS= read -r line
 do
 if [[ $line == *"husky install"* ]]; then
 echo 'Finished adding postinstall script'
+yarn
 exit
 fi
 done < "$input"
@@ -139,3 +140,5 @@ touch package3.json
 sed 's/12345/\n/g' package2.json > package3.json
 rm package2.json
 mv package3.json package.json
+
+yarn
