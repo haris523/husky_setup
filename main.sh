@@ -9,4 +9,6 @@ source ./packageInstalls.sh
 chmod a+x ./packageJsonEdit.sh
 source ./packageJsonEdit.sh
 
+chmod 777 ./husky/pre-commit
+
 yarn
