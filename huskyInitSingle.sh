@@ -141,4 +141,6 @@ sed 's/12345/\n/g' package2.json > package3.json
 rm package2.json
 mv package3.json package.json
 
+chmod 777 ./husky/pre-commit
+
 yarn
